@@ -1,0 +1,66 @@
+.register {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  background-color: #d9e2ed;;
+}
+
+.rContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 10px; */
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px rgb(163, 162, 162);
+  width: 300px;
+  height: 500px;
+}
+.rContainer  *{
+  width: 60%;
+
+}
+.rContainer > :first-child{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.rInput{
+  height: 25px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(228, 228, 228);
+  border: none;
+}
+
+.rButton {
+  margin-bottom: 10px;
+  width: 200px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+
+
+
+
+  border-radius: 25px;
+
+  /* background-color: #003580; */
+  background-color: #0071c2;
+  border: #febb02 solid 2px;
+}
+
+.rButton:disabled{
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}

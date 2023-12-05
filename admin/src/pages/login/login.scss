@@ -1,0 +1,68 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(206, 219, 244);
+  background-color: #d9e2ed;;
+  
+}
+
+.lContainer {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  gap: 10px;
+  box-shadow: 2px 5px 5px rgb(163, 162, 162);
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.lContainer > :first-child{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.lContainer  *{
+  width: 60%;
+  
+}
+
+.lInput{
+  height: 25px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(228, 228, 228);
+  border: none;
+  font-size: 12px;
+}
+
+.lButton {
+  padding: 10px 20px;
+  color: white; 
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+
+  /* background-color: #003580; */
+  background-color: #0071c2;
+  border: #febb02 solid 2px;
+}
+
+.lButton:hover {
+  background-color: #245fb1;
+}
+
+.error{
+  color: red;
+}
+
+.lButton:disabled{
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
